@@ -1,0 +1,40 @@
+body{
+	padding:30px;
+}
+.block {
+border: 5px solid green;
+max-width:800px;
+margin:0 auto;
+position: relative;
+right: 20px;
+bottom: :10px;
+} 
+.block_1 {
+	font-size: 20px;
+	background-color: blue;
+	line-height: 50px;
+	text-align: center;
+	position: fixed;
+	left:20px;
+
+	
+
+}
+.block_2 {
+	font-size: 20px;
+	background-color: yellow;
+	line-height:50px;
+	text-align: center;
+	position: sticky;
+	top:0px;
+	
+}
+.block_3 {
+	font-size: 20px;
+	background-color: violet;
+	line-height: 50px;
+	text-align: center;
+	position: relative;
+	z-index: 5;
+}
+}
